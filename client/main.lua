@@ -104,7 +104,7 @@ Citizen.CreateThread(function()
                 end
             end
             if playersTalking[1] ~= "Yok" then
-                displayText("Şuanda Konuşanlar:", 0, 255, 255, 255, 255, 0.5, 0.0) -- Yazının kordinatları ve yazı
+                displayText(_U('suan'), 0, 255, 255, 255, 255, 0.5, 0.0) -- Yazının kordinatları ve yazı
                 count = 0
                 for k,v in pairs(playersTalking) do
                     displayText("~f~" .. v, 0, 255, 255, 255, 255, 0.5, 0.025 + (0.025*(count))) -- kişinin konuştuğunda çıktığı kordinatlar
